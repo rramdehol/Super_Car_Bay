@@ -1,0 +1,23 @@
+/* line 36, ../../compass/sass/styles.scss */
+#main-image {
+  color: blue;
+  border: 5px solid red;
+}
+
+/* line 40, ../../compass/sass/styles.scss */
+#thumb-nail-box {
+  color: blue;
+  border: 5px solid green;
+}
+
+/* line 44, ../../compass/sass/styles.scss */
+#details-box {
+  color: blue;
+  border: 5px solid blue;
+}
+
+/* line 48, ../../compass/sass/styles.scss */
+#nav-bar {
+  color: blue;
+  border: 5px solid yellow;
+}
