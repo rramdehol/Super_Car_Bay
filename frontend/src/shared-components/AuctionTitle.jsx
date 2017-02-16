@@ -6,7 +6,7 @@ import $ from "jquery";
 class AuctionTitle extends Component{
 	render(){
 		return(
-			<div id="auction-title">
+			<div id="auction-title" className = 'text-center'>
 				This is the auction title
 			</div>
 		)

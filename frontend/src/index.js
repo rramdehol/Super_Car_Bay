@@ -4,10 +4,10 @@ import App from './App';
 import './index.css';
 import {Router, Route, hashHistory, IndexRoute} from 'react-router'
 // Import custom components
-import Home from './container/Home.js';
-import Login from './container/Login.jsx';
-import Register from './container/Register.jsx';
-import Search from './container/Search.jsx';
+import Home from './container/Home';
+import Login from './container/Login';
+import Register from './container/Register';
+import Search from './container/Search';
 // Import Provider for Redux
 import {Provider} from 'react-redux';
 // Import createStore
@@ -20,13 +20,13 @@ import reduxPromise from 'redux-promise';
 const theStoreWithMiddleWare = applyMiddleware(reduxPromise)(createStore);
 
 ReactDOM.render(
-<Provider store={theStoreWithMiddleWare}>
+<Provider store={theStoreWithMiddleWare(reducers)}>
 	<Router history={hashHistory}>
 		<Route path='/' component={App}>
 			<IndexRoute component={Home}/>
-			<Route path='/login' component ={Login}/>
-			<Route path='/register' component ={Register}/>
-			<Route path='/search/:term' component ={Search}/>
+			<Route path='/login' component={Login}/>
+			<Route path='/register' component={Register}/>
+			<Route path='/search/:term' component={Search}/>
 	  	</Route>
 	</Router>
 </Provider>,

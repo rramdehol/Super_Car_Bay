@@ -10,7 +10,7 @@ import Links from './shared-components/Links.jsx'
 class NavBar extends Component{
 	render(){
 		return(
-			<div id='nav-bar' className='col-xs-4'>
+			<div id='nav-bar' className='col-lg-4'>
 				NavBar
 				<Logo/>
 				<AboutUs/>

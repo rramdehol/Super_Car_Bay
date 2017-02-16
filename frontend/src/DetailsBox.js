@@ -12,7 +12,7 @@ import SellerPolicy from "./shared-components/SellerPolicy.jsx"
 class DetailsBox extends Component{
 	render(){
 		return(
-			<div id="details-box" className='col-xs-6'>
+			<div id="details-box" className='col-lg-4'>
 				Details Box
 				<ItemDescription/>
 				<ShippingDetails/>

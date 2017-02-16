@@ -7,7 +7,7 @@ import $ from "jquery";
 class SellerPolicy extends Component{
 	render(){
 		return(
-			<div class="SellerPolicy">
+			<div className ="SellerPolicy">
 				Seller Policy 
 			</div>
 		)

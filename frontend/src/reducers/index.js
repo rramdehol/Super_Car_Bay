@@ -3,10 +3,14 @@
 // the master reducer manages all the reducers
 
 import GetHomeReducer from './GetHomeReducer'
+import RegisterReducer from './RegisterReducer'
+import LoginReducer from './LoginReducer'
 import {combineReducers} from 'redux';
 
 
 const rootReducer = combineReducers({
-	home: GetHomeReducer
+	home: GetHomeReducer,
+	register: RegisterReducer,
+	login: LoginReducer
 })
 export default rootReducer;

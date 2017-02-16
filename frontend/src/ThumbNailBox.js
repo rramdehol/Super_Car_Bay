@@ -7,7 +7,7 @@ import ThumbNail from '../src/shared-components/ThumbNail.jsx'
 class ThumbNailBox extends Component{
 	render(){
 		return(
-			<div id="thumb-nail-box" className= 'col-xs-2'>
+			<div id="thumb-nail-box" className= 'col-lg-4'>
 				Thumb Nail Box
 				<ThumbNail/>
 				<ThumbNail/>
